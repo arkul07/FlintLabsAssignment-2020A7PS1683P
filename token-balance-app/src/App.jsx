@@ -315,7 +315,8 @@ function App() {
 
   return (
     <div className="container mx-auto p-8 overflow-scroll">
-      {/* <button onClick={showToastMessage}>Notify</button> */}
+      <button onClick={showToastMessage}>Notify (Click)</button>
+      {/* Test Notification */}
       {tokens.map((token) => {
         return (
           <div className="m-10 bg-gray-100 p-4 rounded-md shadow-md mb-4">
